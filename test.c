@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  printf("Hello world!\n");
+  int i;
+
+  for(i = 1; i <= 5; i++) {
+    printf("Hello world %d!\n", i);
+  }
 
   return 0;
 }
